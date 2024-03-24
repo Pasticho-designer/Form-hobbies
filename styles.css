@@ -1,0 +1,73 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(34, 34, 34),rgb(22, 22, 22),black);
+}
+.contenedor {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+.mensaje {
+    
+    padding: 20px;
+    padding-bottom:38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 310px;
+    height: 110px;
+    border-radius: 7px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.966),rgb(243, 243, 243));
+}
+.register{
+    font-weight: 600;
+    font-size: 21px;
+}
+.indicacions {
+    font-size: 11px;
+}
+.texto1 {
+    display: flex;
+}
+.bloque2 {
+    display: flex;
+    flex-direction: column;
+}
+.texto2 {
+    font-size: 11px;
+}
+.input {
+    outline: none;
+    background: transparent;
+    border-radius: 4px;
+    padding: 5px 8px;
+    border: solid gray 1px;
+    margin-bottom: 5px;
+}
+.btn-submit {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.btn-submit:hover {
+    background: rgb(73, 121, 211);
+}
+.input:focus {
+    border: solid rgb(52, 119, 243) 1px;
+}
